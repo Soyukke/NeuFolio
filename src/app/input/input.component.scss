@@ -1,0 +1,26 @@
+$bgColor: rgb(40, 40, 40);
+
+input {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  padding-left: 10px;
+  appearance: none;
+  min-width: 100px;
+  min-height: 40px;
+  background-color: $bgColor;
+  border-radius: 10px;
+  background: $bgColor;
+  box-shadow:  inset 4px 4px 8px darken($bgColor, 5%), inset -4px -4px 8px lighten($bgColor, 5%);
+  color: white;
+}
+
+input:hover {
+  box-shadow:  inset 5px 5px 10px darken($bgColor, 5%), inset -5px -5px 10px lighten($bgColor, 5%);
+}
+
+input:active {
+  box-shadow:  inset 6px 6px 12px darken($bgColor, 5%), inset -6px -6px 12px lighten($bgColor, 5%);
+}

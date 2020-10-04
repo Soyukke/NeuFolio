@@ -1,0 +1,17 @@
+$bgColor: rgb(40, 40, 40);
+
+.toolbar {
+  min-width: 100px;
+  min-height: 40px;
+  background-color: $bgColor;
+  border-radius: 0px 0px 10px 10px;
+  background: $bgColor;
+  box-shadow:  4px 4px 8px darken($bgColor, 5%), -4px -4px 8px lighten($bgColor, 5%);
+  color: white;
+}
+
+.title {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
